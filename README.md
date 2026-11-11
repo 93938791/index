@@ -1,37 +1,40 @@
-# index
+# 花韵数核 FLOWERKERNEL 官网
 
-#### 介绍
-公司官网
+内蒙古花韵数核信息科技有限公司官方网站。纯静态单页，无构建步骤、无框架依赖。
 
-#### 软件架构
-软件架构说明
+## 内容
 
+- **产品案例**：农村集体三资信息管理系统（在线演示：<https://sanzi.765.run>）
+- **服务能力**：行业管理平台、数据可视化、移动端 / 小程序、系统集成、私有化部署、长期运维
+- **合作流程**与**联系方式**
 
-#### 安装教程
+## 本地预览
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+直接用浏览器打开 `index.html`，或在当前目录启动一个静态服务器：
 
-#### 使用说明
+```bash
+python -m http.server 8123
+```
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+然后访问 <http://127.0.0.1:8123/>。
 
-#### 参与贡献
+## 目录结构
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+```
+index.html              页面结构与文案
+styles.css              样式、响应式与动画
+app.js                  交互：滚动揭示、产品切换、数字滚动、粒子背景
+assets/
+  fonts/                本地字体（Space Grotesk、JetBrains Mono、Noto Sans SC）
+  logo/                 品牌标识与 favicon
+  product/              三资系统界面截图
+```
 
+## 部署
 
-#### 特技
+将整个目录上传至任意静态托管或 Nginx 即可，无需构建。页面已适配桌面与移动端，并包含无 JS、减少动画模式的降级处理。
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 联系
+
+- 电话 / 微信：15540809080
+- 邮箱：93938791@qq.com

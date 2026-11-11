@@ -1,36 +1,40 @@
-# index
+# FLOWERKERNEL Website
 
-#### Description
-公司官网
+Official website of Inner Mongolia Huayun Digital Core Information Technology Co., Ltd. A static single-page site with no build step and no framework dependencies.
 
-#### Software Architecture
-Software architecture description
+## Contents
 
-#### Installation
+- **Product case study**: Rural Collective Three-Assets Information Management System (<https://sanzi.765.run>)
+- **Services**: industry management platforms, data visualization, mobile / mini programs, system integration, private deployment, long-term support
+- **Process** and **contact**
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Preview
 
-#### Instructions
+Open `index.html` directly, or start a static server in this directory:
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```bash
+python -m http.server 8123
+```
 
-#### Contribution
+Then visit <http://127.0.0.1:8123/>.
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+## Structure
 
+```
+index.html              page structure and copy
+styles.css              styles, responsive layout, animation
+app.js                  interactions: reveals, product tabs, counters, particle field
+assets/
+  fonts/                local fonts (Space Grotesk, JetBrains Mono, Noto Sans SC)
+  logo/                 brand mark and favicon
+  product/              product screenshots
+```
 
-#### Gitee Feature
+## Deployment
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Upload the directory to any static host or Nginx; no build required. The page supports desktop and mobile, with no-JS and reduced-motion fallbacks.
+
+## Contact
+
+- Phone / WeChat: +86 155 4080 9080
+- Email: 93938791@qq.com
